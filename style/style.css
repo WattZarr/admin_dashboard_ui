@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --primary-soft: lightgray;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-name{
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link{
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
+
+.nav-active{
+    background-color: var(--bs-primary);
+    color:#ffffff;
+}
+
+.nav-link:hover{
+    background: #6c757d40;
+}
+
+.nav-title{
+    padding:10px 0px;
+    color:#00000090;
+}
+
+.nav-list{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list span{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list i{
+    margin-right: 5px;
+}
+
+.nav-spacer{
+    padding:10px 0px;
+}
+
+.content{
+    background-color: var(--primary-soft);
+    overflow: scroll;
+}
+
+.header{
+    position: sticky;
+    top:0;
+    z-index: 2000;
+}
+
+.side-bar{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) inset;
+    overflow: scroll;
+}
+
+.show-sidebar-btn{
+
+}
+
+.card{
+    border:none;
+}
+
+.status-card{
+    transition: 0.5s;
+}
+
+.status-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 0 rgba(0,0,0,1.5);
+}
+
+.status-card:active{
+    transform: scale(1.05);
+    box-shadow: 0 0 0 rgba(0,0,0,1.5);
+}
+
+.item-img{
+    width: 35%;
+}
+
+
+.full-screen-card{
+    position: fixed;
+    top: -4%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2005;
+}
+
+@media screen and (max-width:820px){
+    .side-bar{
+        display: block !important;
+        z-index: 2001;
+        width:200px;
+        position: fixed;
+        background-color: white;  
+        margin-left: -100%;;  
+    }
+
+    .carousel-card{
+        margin-top: 100px;
+    }
+}

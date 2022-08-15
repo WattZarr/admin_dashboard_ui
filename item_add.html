@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    
+    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="feather-icons-web/feather.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+   <section class="container-fluid">
+    <div class="row">
+        <div class="col-5 col-lg-4 col-xl-2 vh-100 side-bar">
+            <div class="py-2 mt-2 d-flex justify-content-between align-items-center text-primary brand-name">
+                <!-- brand-name -->
+                <div class="d-flex align-items-center">
+                    <i class="feather-shopping-bag mx-2"></i>
+                    <span class="fw-bolder">My Shop</span>
+                </div>
+                <!-- close-button -->
+                <button class="btn hide-sidebar-btn fw-bolder d-lg-none">
+                    <i class="feather-x px-2"></i>
+                </button>
+            </div>   
+             <!-- nav item -->
+             <div>
+                <ul class="nav-ul">
+                    <a href="index.html" class="nav-link">
+                        <li class="nav-list">
+                        <span>
+                            <i class="feather-home"></i>
+                            Dashboard
+                            </span> 
+                        </li>
+                    </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+
+                <ul class="nav-ul">
+                    <li class="nav-title">Manage Item</li>
+                    <a href="item_add.html" class="nav-link nav-active">
+                    <li class="nav-list">
+                       <span>
+                        <i class="feather-plus-circle"></i>
+                        Add Item
+                        </span> 
+                    </li>
+                    </a>
+                    <a href="item_list.html" class="nav-link">
+                    <li class="nav-list">
+                        <span>
+                         <i class="feather-list"></i>
+                         Item List
+                         </span> 
+                         <span class="badge rounded-pill text-bg-light">15</span>
+                     </li>
+                     </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+
+                <ul class="nav-ul">
+                    <li class="nav-title">Manage Item</li>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                       <span>
+                        <i class="feather-plus-circle"></i>
+                        Add Item
+                        </span> 
+                    </li>
+                    </a>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                        <span>
+                         <i class="feather-list"></i>
+                         Item List
+                         </span> 
+                         <span class="badge rounded-pill text-bg-light">15</span>
+                     </li>
+                     </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+
+                <ul class="nav-ul">
+                    <li class="nav-title">Manage Item</li>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                       <span>
+                        <i class="feather-plus-circle"></i>
+                        Add Item
+                        </span> 
+                    </li>
+                    </a>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                        <span>
+                         <i class="feather-list"></i>
+                         Item List
+                         </span> 
+                         <span class="badge rounded-pill text-bg-light">15</span>
+                     </li>
+                     </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+
+                <ul class="nav-ul">
+                    <li class="nav-title">Manage Item</li>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                       <span>
+                        <i class="feather-plus-circle"></i>
+                        Add Item
+                        </span> 
+                    </li>
+                    </a>
+                    <a href="test_autoscroll.html" class="nav-link">
+                    <li class="nav-list">
+                        <span>
+                         <i class="feather-list"></i>
+                         test auto scroll
+                         </span> 
+                         <span class="badge rounded-pill text-bg-light">15</span>
+                     </li>
+                     </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+
+                <ul class="nav-ul">
+                    <li class="nav-title">Manage Item</li>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                       <span>
+                        <i class="feather-plus-circle"></i>
+                        Add Item
+                        </span> 
+                    </li>
+                    </a>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                        <span>
+                         <i class="feather-list"></i>
+                         Item List
+                         </span> 
+                         <span class="badge rounded-pill text-bg-light">15</span>
+                     </li>
+                     </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+
+                <ul class="nav-ul">
+                    <li class="nav-title">Manage Item</li>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                       <span>
+                        <i class="feather-plus-circle"></i>
+                        Add Item
+                        </span> 
+                    </li>
+                    </a>
+                    <a href="#" class="nav-link">
+                    <li class="nav-list">
+                        <span>
+                         <i class="feather-list"></i>
+                         Item List
+                         </span> 
+                         <span class="badge rounded-pill text-bg-light">15</span>
+                     </li>
+                     </a>
+                    <li class="nav-spacer"></li>
+                </ul>
+            </div>
+            <!-- end nav item -->
+        </div>
+        <div class="col-12 col-lg-8 col-xl-10 content">
+            <div class="row header">
+                <!-- nav-bar -->
+                <div class="col-12 bg-primary py-2 mt-2 mb-4 d-flex justify-content-between">
+                    <!-- side-bar-open-btn -->
+                    <button class="btn show-sidebar-btn d-lg-none">
+                    <i class="feather-menu px-2"></i>
+                    </button> 
+                    <!-- search-form -->
+                    <form action="" class="form-inline d-flex d-none d-md-flex">
+                        <input type="text" class="form-control mx-1">
+                        <button type="submit" class="btn bg-white text-primary"><i class="feather-search"></i></button>
+                    </form>
+                    <!-- drop-down -->
+                    <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle text-primary" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="feather-user"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                      </div>  
+                </div>
+            </div>
+
+            <!-- breadcrumb -->
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item"><a href="item_list.html">Item</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Add</li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+
+            <!-- item add form -->
+            <div class="row">
+                <div class="col-12 col-xl-8">
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <!-- header -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="mb-0">
+                                    <i class="feather-plus h5 text-primary"></i>
+                                    Add Item
+                                </h4>
+                                <a href="item_list.html"><i class="feather-list btn btn-outline-primary"></i></a>
+                            </div>
+                            <hr>
+
+                        <!-- form -->
+                        <form action="#" method="post">
+                            <div class="row">
+                                <!-- left-side -->
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group mb-2">
+                                        <label for="">
+                                            Photo <i class="feather-info" title="only jpg and png format"></i>
+                                        </label>
+                                        <input type="file" class="form-control" name="photo">
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label for="">Name</label>
+                                        <input type="text" name="name" class="form-control">
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label for="">Type</label>
+                                        <select name="type" class="form-select">
+                                            <option selected>Select Type</option>
+                                            <option value="0">ကုန်ဆို</option>
+                                            <option value="0">ကုန် ေခြာက်</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label for="">Main Category</label>
+                                        <select name="mc" class="form-select" id="mc">
+                                           <option value="" selected>Select Main Category</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label for="">Sub Category</label>
+                                        <select name="sc" class="form-select" id="sc">
+                                            <option value="" selected>Select Sub Category</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- right-side -->
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="">Quantity</label>
+                                                <input type="text" name="q" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group mb-2">
+                                                <label for="">Type</label>
+                                                <select name="type" class="form-select">
+                                                    <option value="0">ကုန်ဆို</option>
+                                                    <option value="0">ကုန် ေခြာက်</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Price</label>
+                                        <input type="number" name="p" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Description</label>
+                                        <textarea name="des" cols="30" rows="6" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <hr>
+                        <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary">Add Item</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+   </section>
+
+   <script src="js/bootstrap.bundle.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/jquery.waypoints.js"></script>
+   <script src="js/jquery.counterup.min.js"></script>
+   <script src="js/app.js"></script>
+   <script>
+    let category = ["Phone","Laptop","TV"];
+    let subCategory = [
+        {name:"iPhone",category_id : 0},
+        {name:"Huawei",category_id : 0},
+        {name:"Hp",category_id : 1},
+        {name:"Dell",category_id : 1},
+        {name:"Samsung",category_id : 2},
+    ];
+
+    category.map((el,index) => {
+        $("#mc").append(`<option value="${index}">${el}</option>`);
+    });
+
+    subCategory.map((el,index) => {
+        $("#sc").append(`<option value="${el.index}" data-category="${el.category_id}">${el.name}</option>`)
+    })
+
+    $("#mc").on("change", function(){
+        let currentCategoryId = $(this).val();
+        $("#sc option").hide();
+        $(`[data-category=${currentCategoryId}]`).show();  
+    })
+   </script>
+
+</body>
+</html>
